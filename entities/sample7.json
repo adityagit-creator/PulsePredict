@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "BeginOffset": 372,
+    "EndOffset": 376,
+    "Score": 0.22409385442733765,
+    "Text": "love",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  }
+]

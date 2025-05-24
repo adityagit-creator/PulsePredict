@@ -1,0 +1,221 @@
+[
+  {
+    "Id": 3,
+    "BeginOffset": 49,
+    "EndOffset": 51,
+    "Score": 0.38700222969055176,
+    "Text": "25",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "AGE",
+    "Traits": []
+  },
+  {
+    "Id": 4,
+    "BeginOffset": 222,
+    "EndOffset": 231,
+    "Score": 0.9561864137649536,
+    "Text": "australia",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 5,
+    "BeginOffset": 255,
+    "EndOffset": 263,
+    "Score": 0.9982588887214661,
+    "Text": "thailand",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 6,
+    "BeginOffset": 287,
+    "EndOffset": 296,
+    "Score": 0.9797174334526062,
+    "Text": "australia",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 7,
+    "BeginOffset": 306,
+    "EndOffset": 317,
+    "Score": 0.6881973743438721,
+    "Text": "new zealand",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 8,
+    "BeginOffset": 327,
+    "EndOffset": 334,
+    "Score": 0.9749751091003418,
+    "Text": "america",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 9,
+    "BeginOffset": 1016,
+    "EndOffset": 1031,
+    "Score": 0.1975715011358261,
+    "Text": "ileman broadway",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 2,
+    "BeginOffset": 1713,
+    "EndOffset": 1716,
+    "Score": 0.8617406487464905,
+    "Text": "ill",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "HYPOTHETICAL",
+        "Score": 0.5752319693565369
+      },
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.9013108015060425
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "BeginOffset": 1853,
+    "EndOffset": 1859,
+    "Score": 0.8820899128913879,
+    "Text": "summer",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "DATE",
+    "Traits": []
+  },
+  {
+    "Id": 11,
+    "BeginOffset": 1911,
+    "EndOffset": 1917,
+    "Score": 0.25252726674079895,
+    "Text": "summer",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "DATE",
+    "Traits": []
+  },
+  {
+    "Id": 12,
+    "BeginOffset": 1994,
+    "EndOffset": 2000,
+    "Score": 0.1340692937374115,
+    "Text": "purser",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 13,
+    "BeginOffset": 2020,
+    "EndOffset": 2028,
+    "Score": 0.9572756290435791,
+    "Text": "kilkenny",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  },
+  {
+    "Id": 14,
+    "BeginOffset": 2098,
+    "EndOffset": 2102,
+    "Score": 0.30794835090637207,
+    "Text": "west",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 15,
+    "BeginOffset": 2344,
+    "EndOffset": 2350,
+    "Score": 0.3609955906867981,
+    "Text": "summer",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "DATE",
+    "Traits": []
+  },
+  {
+    "Id": 16,
+    "BeginOffset": 2421,
+    "EndOffset": 2430,
+    "Score": 0.2380867898464203,
+    "Text": "christmas",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "DATE",
+    "Traits": []
+  },
+  {
+    "Id": 17,
+    "BeginOffset": 2446,
+    "EndOffset": 2454,
+    "Score": 0.9182324409484863,
+    "Text": "new york",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 18,
+    "BeginOffset": 2501,
+    "EndOffset": 2510,
+    "Score": 0.997097373008728,
+    "Text": "australia",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 19,
+    "BeginOffset": 2705,
+    "EndOffset": 2714,
+    "Score": 0.9840399622917175,
+    "Text": "australia",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 20,
+    "BeginOffset": 2766,
+    "EndOffset": 2780,
+    "Score": 0.16907665133476257,
+    "Text": "world thailand",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 21,
+    "BeginOffset": 2785,
+    "EndOffset": 2794,
+    "Score": 0.9935131669044495,
+    "Text": "australia",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 22,
+    "BeginOffset": 2820,
+    "EndOffset": 2840,
+    "Score": 0.4351437985897064,
+    "Text": "sheep farm australia",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "PROFESSION",
+    "Traits": []
+  }
+]

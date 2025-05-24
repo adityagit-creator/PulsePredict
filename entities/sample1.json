@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "BeginOffset": 274,
+    "EndOffset": 284,
+    "Score": 0.8884729743003845,
+    "Text": "university",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  }
+]

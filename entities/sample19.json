@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "BeginOffset": 519,
+    "EndOffset": 524,
+    "Score": 0.9914849400520325,
+    "Text": "tracy",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  }
+]

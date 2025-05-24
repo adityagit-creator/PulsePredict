@@ -1,0 +1,334 @@
+[
+  {
+    "Id": 20,
+    "BeginOffset": 1523,
+    "EndOffset": 1537,
+    "Score": 0.988763689994812,
+    "Text": "security guard",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "PROFESSION",
+    "Traits": []
+  },
+  {
+    "Id": 21,
+    "BeginOffset": 1570,
+    "EndOffset": 1580,
+    "Score": 0.9821134209632874,
+    "Text": "university",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 22,
+    "BeginOffset": 1664,
+    "EndOffset": 1674,
+    "Score": 0.6195037961006165,
+    "Text": "journalism",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 23,
+    "BeginOffset": 1781,
+    "EndOffset": 1795,
+    "Score": 0.9007769823074341,
+    "Text": "security guard",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "PROFESSION",
+    "Traits": []
+  },
+  {
+    "Id": 24,
+    "BeginOffset": 1801,
+    "EndOffset": 1814,
+    "Score": 0.29914575815200806,
+    "Text": "chicken plant",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "PROFESSION",
+    "Traits": []
+  },
+  {
+    "Id": 2,
+    "BeginOffset": 2423,
+    "EndOffset": 2427,
+    "Score": 0.7613970637321472,
+    "Text": "pain",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.8203471899032593
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "BeginOffset": 2435,
+    "EndOffset": 2445,
+    "Score": 0.821601390838623,
+    "Text": "screeching",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.8530592322349548
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "BeginOffset": 2450,
+    "EndOffset": 2459,
+    "Score": 0.9201511740684509,
+    "Text": "screaming",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.9596198797225952
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "BeginOffset": 2581,
+    "EndOffset": 2604,
+    "Score": 0.5330596566200256,
+    "Text": "trying to eat less meat",
+    "Category": "TEST_TREATMENT_PROCEDURE",
+    "Type": "TREATMENT_NAME",
+    "Traits": []
+  },
+  {
+    "Id": 6,
+    "BeginOffset": 2678,
+    "EndOffset": 2695,
+    "Score": 0.5971075296401978,
+    "Text": "generally healthy",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.6248409748077393
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "BeginOffset": 2838,
+    "EndOffset": 2843,
+    "Score": 0.5330596566200256,
+    "Text": "tired",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.47435709834098816
+      }
+    ],
+    "Attributes": [
+      {
+        "Type": "QUALITY",
+        "Score": 0.5971075296401978,
+        "RelationshipScore": 0.5692254304885864,
+        "RelationshipType": "QUALITY",
+        "Id": 9,
+        "BeginOffset": 2833,
+        "EndOffset": 2837,
+        "Text": "very",
+        "Category": "MEDICAL_CONDITION",
+        "Traits": []
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "BeginOffset": 2847,
+    "EndOffset": 2867,
+    "Score": 0.7172441482543945,
+    "Text": "breathing very heavy",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.7299559712409973
+      }
+    ]
+  },
+  {
+    "Id": 25,
+    "BeginOffset": 3223,
+    "EndOffset": 3230,
+    "Score": 0.578777015209198,
+    "Text": "america",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 26,
+    "BeginOffset": 3318,
+    "EndOffset": 3330,
+    "Score": 0.9985445737838745,
+    "Text": "john robbins",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  },
+  {
+    "Id": 27,
+    "BeginOffset": 3389,
+    "EndOffset": 3396,
+    "Score": 0.7608599662780762,
+    "Text": "america",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 28,
+    "BeginOffset": 5349,
+    "EndOffset": 5351,
+    "Score": 0.2551119327545166,
+    "Text": "15",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "AGE",
+    "Traits": []
+  },
+  {
+    "Id": 12,
+    "BeginOffset": 5739,
+    "EndOffset": 5744,
+    "Score": 0.821601390838623,
+    "Text": "tired",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.8787732124328613
+      }
+    ],
+    "Attributes": [
+      {
+        "Type": "QUALITY",
+        "Score": 0.5330596566200256,
+        "RelationshipScore": 0.5068173408508301,
+        "RelationshipType": "QUALITY",
+        "Id": 11,
+        "BeginOffset": 5734,
+        "EndOffset": 5738,
+        "Text": "more",
+        "Category": "MEDICAL_CONDITION",
+        "Traits": []
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "BeginOffset": 5757,
+    "EndOffset": 5773,
+    "Score": 0.7950295805931091,
+    "Text": "difficult to run",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.8203471899032593
+      }
+    ],
+    "Attributes": [
+      {
+        "Type": "QUALITY",
+        "Score": 0.5971075296401978,
+        "RelationshipScore": 0.5692254304885864,
+        "RelationshipType": "QUALITY",
+        "Id": 13,
+        "BeginOffset": 5752,
+        "EndOffset": 5756,
+        "Text": "more",
+        "Category": "MEDICAL_CONDITION",
+        "Traits": []
+      }
+    ]
+  },
+  {
+    "Id": 29,
+    "BeginOffset": 6192,
+    "EndOffset": 6194,
+    "Score": 0.6288262605667114,
+    "Text": "15",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "AGE",
+    "Traits": []
+  },
+  {
+    "Id": 16,
+    "BeginOffset": 6211,
+    "EndOffset": 6237,
+    "Score": 0.5330596566200256,
+    "Text": "still have a lot of energy",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.47435709834098816
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "BeginOffset": 6244,
+    "EndOffset": 6259,
+    "Score": 0.5330596566200256,
+    "Text": "still feel good",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.5296252369880676
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "BeginOffset": 6303,
+    "EndOffset": 6310,
+    "Score": 0.5330596566200256,
+    "Text": "no meat",
+    "Category": "TEST_TREATMENT_PROCEDURE",
+    "Type": "TREATMENT_NAME",
+    "Traits": []
+  },
+  {
+    "Id": 30,
+    "BeginOffset": 6578,
+    "EndOffset": 6590,
+    "Score": 0.9569058418273926,
+    "Text": "john robbins",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  },
+  {
+    "Id": 31,
+    "BeginOffset": 6611,
+    "EndOffset": 6618,
+    "Score": 0.6574844121932983,
+    "Text": "america",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  }
+]

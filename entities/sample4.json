@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "BeginOffset": 505,
+    "EndOffset": 524,
+    "Score": 0.5641061067581177,
+    "Text": "cambodia stonehenge",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 2,
+    "BeginOffset": 528,
+    "EndOffset": 535,
+    "Score": 0.8168452978134155,
+    "Text": "england",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 3,
+    "BeginOffset": 544,
+    "EndOffset": 553,
+    "Score": 0.9672991633415222,
+    "Text": "taj mahal",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  },
+  {
+    "Id": 4,
+    "BeginOffset": 557,
+    "EndOffset": 562,
+    "Score": 0.9967948794364929,
+    "Text": "india",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 5,
+    "BeginOffset": 894,
+    "EndOffset": 907,
+    "Score": 0.9733374714851379,
+    "Text": "new york city",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 6,
+    "BeginOffset": 1125,
+    "EndOffset": 1139,
+    "Score": 0.9941512942314148,
+    "Text": "liberty island",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 7,
+    "BeginOffset": 1143,
+    "EndOffset": 1162,
+    "Score": 0.9939031004905701,
+    "Text": "new york harbor nyc",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  }
+]

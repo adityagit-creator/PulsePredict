@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 4,
+    "BeginOffset": 49,
+    "EndOffset": 57,
+    "Score": 0.2133898288011551,
+    "Text": "honduras",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 5,
+    "BeginOffset": 64,
+    "EndOffset": 91,
+    "Score": 0.6050459146499634,
+    "Text": "rohiton island scuba diving",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 3,
+    "BeginOffset": 210,
+    "EndOffset": 236,
+    "Score": 0.5330596566200256,
+    "Text": "enriched air diving nitrox",
+    "Category": "TEST_TREATMENT_PROCEDURE",
+    "Type": "TREATMENT_NAME",
+    "Traits": []
+  },
+  {
+    "Id": 6,
+    "BeginOffset": 250,
+    "EndOffset": 263,
+    "Score": 0.9873901605606079,
+    "Text": "san francisco",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 7,
+    "BeginOffset": 346,
+    "EndOffset": 353,
+    "Score": 0.9949211478233337,
+    "Text": "kristen",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  },
+  {
+    "Id": 8,
+    "BeginOffset": 358,
+    "EndOffset": 363,
+    "Score": 0.9878992438316345,
+    "Text": "chris",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  },
+  {
+    "Id": 9,
+    "BeginOffset": 379,
+    "EndOffset": 404,
+    "Score": 0.2628811001777649,
+    "Text": "new lesson albums kristen",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "ADDRESS",
+    "Traits": []
+  },
+  {
+    "Id": 10,
+    "BeginOffset": 458,
+    "EndOffset": 489,
+    "Score": 0.16610637307167053,
+    "Text": "effortless english club lessons",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "PROFESSION",
+    "Traits": []
+  },
+  {
+    "Id": 11,
+    "BeginOffset": 1122,
+    "EndOffset": 1129,
+    "Score": 0.9893537759780884,
+    "Text": "kristen",
+    "Category": "PROTECTED_HEALTH_INFORMATION",
+    "Type": "NAME",
+    "Traits": []
+  }
+]

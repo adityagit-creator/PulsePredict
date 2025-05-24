@@ -1,0 +1,36 @@
+[
+  {
+    "Id": 1,
+    "BeginOffset": 972,
+    "EndOffset": 985,
+    "Score": 0.7950295805931091,
+    "Text": "drink alcohol",
+    "Category": "MEDICAL_CONDITION",
+    "Type": "DX_NAME",
+    "Traits": [
+      {
+        "Name": "NEGATION",
+        "Score": 0.5296252369880676
+      },
+      {
+        "Name": "SYMPTOM",
+        "Score": 0.8530592322349548
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "BeginOffset": 978,
+    "EndOffset": 985,
+    "Score": 0.821601390838623,
+    "Text": "alcohol",
+    "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+    "Type": "ALCOHOL_CONSUMPTION",
+    "Traits": [
+      {
+        "Name": "NEGATION",
+        "Score": 0.6768204569816589
+      }
+    ]
+  }
+]
