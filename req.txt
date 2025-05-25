@@ -1,0 +1,10 @@
+boto3
+tqdm
+scikit-learn
+pandas
+numpy
+scipy
+rapidfuzz
+streamlit
+plotly
+git+https://github.com/openai/whisper.git
