@@ -1,0 +1,27 @@
+{
+  "file": "sample17",
+  "entities": [
+    {
+      "Id": 1,
+      "BeginOffset": 658,
+      "EndOffset": 674,
+      "Score": 0.5330596566200256,
+      "Text": "all of your body",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 2,
+      "BeginOffset": 714,
+      "EndOffset": 718,
+      "Score": 0.6603351831436157,
+      "Text": "arms",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    }
+  ]
+}

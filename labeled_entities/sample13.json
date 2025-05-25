@@ -1,0 +1,168 @@
+{
+  "file": "sample13",
+  "entities": [
+    {
+      "Id": 3,
+      "BeginOffset": 679,
+      "EndOffset": 697,
+      "Score": 0.20167936384677887,
+      "Text": "city of christophe",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 4,
+      "BeginOffset": 921,
+      "EndOffset": 930,
+      "Score": 0.69620281457901,
+      "Text": "st orbans",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 5,
+      "BeginOffset": 1066,
+      "EndOffset": 1075,
+      "Score": 0.5681115388870239,
+      "Text": "st orbans",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 6,
+      "BeginOffset": 1134,
+      "EndOffset": 1146,
+      "Score": 0.9031248092651367,
+      "Text": "st orbans oh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 7,
+      "BeginOffset": 1174,
+      "EndOffset": 1189,
+      "Score": 0.6732301115989685,
+      "Text": "amphilt amphilt",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 8,
+      "BeginOffset": 1203,
+      "EndOffset": 1205,
+      "Score": 0.43152105808258057,
+      "Text": "st",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 9,
+      "BeginOffset": 1238,
+      "EndOffset": 1246,
+      "Score": 0.8379908204078674,
+      "Text": "auckland",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 10,
+      "BeginOffset": 1320,
+      "EndOffset": 1322,
+      "Score": 0.26761454343795776,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 1,
+      "BeginOffset": 1387,
+      "EndOffset": 1392,
+      "Score": 0.8435389995574951,
+      "Text": "hyper",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "PERTAINS_TO_FAMILY",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 11,
+      "BeginOffset": 1678,
+      "EndOffset": 1680,
+      "Score": 0.5622556209564209,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 12,
+      "BeginOffset": 1693,
+      "EndOffset": 1695,
+      "Score": 0.551925778388977,
+      "Text": "30",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "AGE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 13,
+      "BeginOffset": 1733,
+      "EndOffset": 1741,
+      "Score": 0.22963495552539825,
+      "Text": "18 17 17",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "DATE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 14,
+      "BeginOffset": 1830,
+      "EndOffset": 1832,
+      "Score": 0.2562580704689026,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 15,
+      "BeginOffset": 2443,
+      "EndOffset": 2445,
+      "Score": 0.3508203327655792,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    }
+  ]
+}

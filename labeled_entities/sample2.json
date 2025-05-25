@@ -1,0 +1,60 @@
+{
+  "file": "sample2",
+  "entities": [
+    {
+      "Id": 1,
+      "BeginOffset": 243,
+      "EndOffset": 258,
+      "Score": 0.4238664507865906,
+      "Text": "doctor he works",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "PROFESSION",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 2,
+      "BeginOffset": 266,
+      "EndOffset": 280,
+      "Score": 0.17384977638721466,
+      "Text": "local hospital",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "PROFESSION",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 3,
+      "BeginOffset": 311,
+      "EndOffset": 313,
+      "Score": 0.9988862872123718,
+      "Text": "40",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "AGE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 4,
+      "BeginOffset": 437,
+      "EndOffset": 442,
+      "Score": 0.999340832233429,
+      "Text": "david",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 5,
+      "BeginOffset": 466,
+      "EndOffset": 470,
+      "Score": 0.998221218585968,
+      "Text": "mary",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    }
+  ]
+}

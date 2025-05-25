@@ -1,0 +1,228 @@
+{
+  "file": "sample16",
+  "entities": [
+    {
+      "Id": 5,
+      "BeginOffset": 15,
+      "EndOffset": 24,
+      "Score": 0.825319766998291,
+      "Text": "christmas",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 6,
+      "BeginOffset": 98,
+      "EndOffset": 107,
+      "Score": 0.5089002847671509,
+      "Text": "christmas",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "DATE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 7,
+      "BeginOffset": 441,
+      "EndOffset": 451,
+      "Score": 0.4966854453086853,
+      "Text": "jerry laga",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 8,
+      "BeginOffset": 536,
+      "EndOffset": 545,
+      "Score": 0.46916666626930237,
+      "Text": "christmas",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "DATE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 1,
+      "BeginOffset": 557,
+      "EndOffset": 562,
+      "Score": 0.7950295805931091,
+      "Text": "slept",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 2,
+          "BeginOffset": 566,
+          "EndOffset": 575,
+          "Text": "about 230",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 3,
+      "BeginOffset": 576,
+      "EndOffset": 592,
+      "Score": 0.5971075296401978,
+      "Text": "in the afternoon",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.7950295805931091,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "OVERLAP",
+          "Id": 1,
+          "BeginOffset": 557,
+          "EndOffset": 562,
+          "Text": "slept",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.8530592322349548
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 9,
+      "BeginOffset": 715,
+      "EndOffset": 719,
+      "Score": 0.9972774386405945,
+      "Text": "24th",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "DATE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 10,
+      "BeginOffset": 916,
+      "EndOffset": 925,
+      "Score": 0.7178118228912354,
+      "Text": "christmas",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "DATE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 11,
+      "BeginOffset": 983,
+      "EndOffset": 992,
+      "Score": 0.77267986536026,
+      "Text": "christmas",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "DATE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 12,
+      "BeginOffset": 1443,
+      "EndOffset": 1450,
+      "Score": 0.5326051115989685,
+      "Text": "journey",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 13,
+      "BeginOffset": 1601,
+      "EndOffset": 1612,
+      "Score": 0.9973399043083191,
+      "Text": "northampton",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 14,
+      "BeginOffset": 1625,
+      "EndOffset": 1632,
+      "Score": 0.9266674518585205,
+      "Text": "england",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 15,
+      "BeginOffset": 1743,
+      "EndOffset": 1747,
+      "Score": 0.5881922841072083,
+      "Text": "leal",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 4,
+      "BeginOffset": 2140,
+      "EndOffset": 2148,
+      "Score": 0.7172441482543945,
+      "Text": "fell off",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6768204569816589
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.7299559712409973
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 16,
+      "BeginOffset": 2390,
+      "EndOffset": 2393,
+      "Score": 0.1562681496143341,
+      "Text": "pat",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 17,
+      "BeginOffset": 2435,
+      "EndOffset": 2438,
+      "Score": 0.39593732357025146,
+      "Text": "pat",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    }
+  ]
+}

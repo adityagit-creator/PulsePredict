@@ -1,0 +1,331 @@
+{
+  "file": "patient_call.json",
+  "entities": [
+    {
+      "Id": 2,
+      "BeginOffset": 77,
+      "EndOffset": 84,
+      "Score": 0.90631103515625,
+      "Text": "stomach",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 3,
+      "BeginOffset": 77,
+      "EndOffset": 89,
+      "Score": 0.9350614547729492,
+      "Text": "stomach ache",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "QUALITY",
+          "Id": 1,
+          "BeginOffset": 68,
+          "EndOffset": 76,
+          "Text": "terrible",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.90631103515625,
+          "RelationshipScore": 0.8970123529434204,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 2,
+          "BeginOffset": 77,
+          "EndOffset": 84,
+          "Text": "stomach",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 4,
+      "BeginOffset": 103,
+      "EndOffset": 111,
+      "Score": 0.9584784507751465,
+      "Text": "diarrhea",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9817302823066711
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 5,
+      "BeginOffset": 145,
+      "EndOffset": 153,
+      "Score": 0.5330596566200256,
+      "Text": "symptoms",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 6,
+      "BeginOffset": 161,
+      "EndOffset": 170,
+      "Score": 0.6603351831436157,
+      "Text": "feel sick",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 7,
+      "BeginOffset": 190,
+      "EndOffset": 198,
+      "Score": 0.5330596566200256,
+      "Text": "nauseous",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 8,
+      "BeginOffset": 211,
+      "EndOffset": 224,
+      "Score": 0.5330596566200256,
+      "Text": "feel vomiting",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 9,
+      "BeginOffset": 235,
+      "EndOffset": 245,
+      "Score": 0.6603351831436157,
+      "Text": "feel dizzy",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 10,
+      "BeginOffset": 264,
+      "EndOffset": 272,
+      "Score": 0.7950295805931091,
+      "Text": "symptoms",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 11,
+      "BeginOffset": 280,
+      "EndOffset": 292,
+      "Score": 0.6603351831436157,
+      "Text": "this morning",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.7950295805931091,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "OVERLAP",
+          "Id": 10,
+          "BeginOffset": 264,
+          "EndOffset": 272,
+          "Text": "symptoms",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.8530592322349548
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 13,
+      "BeginOffset": 378,
+      "EndOffset": 383,
+      "Score": 0.6603351831436157,
+      "Text": "waist",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 14,
+      "BeginOffset": 423,
+      "EndOffset": 428,
+      "Score": 0.7172441482543945,
+      "Text": "hurts",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "HYPOTHETICAL",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.7299559712409973
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 15,
+      "BeginOffset": 456,
+      "EndOffset": 460,
+      "Score": 0.821601390838623,
+      "Text": "hurt",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 16,
+      "BeginOffset": 471,
+      "EndOffset": 476,
+      "Score": 0.7172441482543945,
+      "Text": "hurts",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.779019296169281
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 17,
+      "BeginOffset": 507,
+      "EndOffset": 518,
+      "Score": 0.821601390838623,
+      "Text": "indigestion",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "LOW_CONFIDENCE",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 18,
+      "BeginOffset": 546,
+      "EndOffset": 562,
+      "Score": 0.6603351831436157,
+      "Text": "diagnostic tests",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 19,
+      "BeginOffset": 587,
+      "EndOffset": 597,
+      "Score": 0.7613970637321472,
+      "Text": "blood test",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 20,
+      "BeginOffset": 620,
+      "EndOffset": 632,
+      "Score": 0.7172441482543945,
+      "Text": "urine sample",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 21,
+      "BeginOffset": 718,
+      "EndOffset": 737,
+      "Score": 0.6603351831436157,
+      "Text": "indigestion tablets",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    }
+  ]
+}

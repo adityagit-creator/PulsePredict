@@ -1,0 +1,38 @@
+{
+  "file": "sample14",
+  "entities": [
+    {
+      "Id": 1,
+      "BeginOffset": 928,
+      "EndOffset": 940,
+      "Score": 0.15756143629550934,
+      "Text": "womans house",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 2,
+      "BeginOffset": 949,
+      "EndOffset": 959,
+      "Score": 0.24110545217990875,
+      "Text": "mans house",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "PROFESSION",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 3,
+      "BeginOffset": 1409,
+      "EndOffset": 1416,
+      "Score": 0.524593710899353,
+      "Text": "park um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    }
+  ]
+}

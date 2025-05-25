@@ -1,0 +1,4799 @@
+{
+  "file": "sample",
+  "entities": [
+    {
+      "Id": 1,
+      "BeginOffset": 43,
+      "EndOffset": 47,
+      "Score": 0.9584784507751465,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9817302823066711
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "DIRECTION",
+          "Id": 2,
+          "BeginOffset": 54,
+          "EndOffset": 58,
+          "Text": "left",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.8672217726707458,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 3,
+          "BeginOffset": 54,
+          "EndOffset": 64,
+          "Text": "left elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 5,
+          "BeginOffset": 99,
+          "EndOffset": 121,
+          "Text": "not getting any better",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 3,
+      "BeginOffset": 54,
+      "EndOffset": 64,
+      "Score": 0.8617406487464905,
+      "Text": "left elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 4,
+      "BeginOffset": 71,
+      "EndOffset": 86,
+      "Score": 0.5330596566200256,
+      "Text": "couple of weeks",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.9584784507751465,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "OVERLAP",
+          "Id": 1,
+          "BeginOffset": 43,
+          "EndOffset": 47,
+          "Text": "pain",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.9817302823066711
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 6,
+      "BeginOffset": 197,
+      "EndOffset": 201,
+      "Score": 0.7613970637321472,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "DIRECTION",
+          "Id": 7,
+          "BeginOffset": 209,
+          "EndOffset": 221,
+          "Text": "lateral side",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 8,
+          "BeginOffset": 209,
+          "EndOffset": 234,
+          "Text": "lateral side of the elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "DIRECTION",
+          "Id": 9,
+          "BeginOffset": 255,
+          "EndOffset": 261,
+          "Text": "medial",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "DIRECTION",
+          "Id": 10,
+          "BeginOffset": 255,
+          "EndOffset": 266,
+          "Text": "medial side",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 11,
+          "BeginOffset": 255,
+          "EndOffset": 279,
+          "Text": "medial side of the elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 8,
+      "BeginOffset": 209,
+      "EndOffset": 234,
+      "Score": 0.7172441482543945,
+      "Text": "lateral side of the elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 11,
+      "BeginOffset": 255,
+      "EndOffset": 279,
+      "Score": 0.7613970637321472,
+      "Text": "medial side of the elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 12,
+      "BeginOffset": 332,
+      "EndOffset": 336,
+      "Score": 0.8617406487464905,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 14,
+          "BeginOffset": 410,
+          "EndOffset": 422,
+          "Text": "gotten worse",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 13,
+      "BeginOffset": 384,
+      "EndOffset": 401,
+      "Score": 0.5330596566200256,
+      "Text": "past three months",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "OVERLAP",
+          "Id": 12,
+          "BeginOffset": 332,
+          "EndOffset": 336,
+          "Text": "pain",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.9013108015060425
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 15,
+      "BeginOffset": 423,
+      "EndOffset": 455,
+      "Score": 0.5330596566200256,
+      "Text": "over the last id say three weeks",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "OVERLAP",
+          "Id": 12,
+          "BeginOffset": 332,
+          "EndOffset": 336,
+          "Text": "pain",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.9013108015060425
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 16,
+      "BeginOffset": 473,
+      "EndOffset": 477,
+      "Score": 0.8435389995574951,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "QUALITY",
+          "Id": 17,
+          "BeginOffset": 483,
+          "EndOffset": 496,
+          "Text": "getting worse",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 18,
+      "BeginOffset": 518,
+      "EndOffset": 523,
+      "Score": 0.7950295805931091,
+      "Text": "pains",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.7950295805931091,
+          "RelationshipScore": 0.7814922332763672,
+          "RelationshipType": "QUALITY",
+          "Id": 19,
+          "BeginOffset": 529,
+          "EndOffset": 542,
+          "Text": "getting worse",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 20,
+      "BeginOffset": 567,
+      "EndOffset": 575,
+      "Score": 0.6603351831436157,
+      "Text": "triggers",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 21,
+      "BeginOffset": 582,
+      "EndOffset": 602,
+      "Score": 0.7172441482543945,
+      "Text": "precipitating events",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5752319693565369
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.7299559712409973
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 22,
+      "BeginOffset": 610,
+      "EndOffset": 614,
+      "Score": 0.8435389995574951,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 23,
+      "BeginOffset": 630,
+      "EndOffset": 634,
+      "Score": 0.6603351831436157,
+      "Text": "fall",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5752319693565369
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 24,
+      "BeginOffset": 654,
+      "EndOffset": 673,
+      "Score": 0.5330596566200256,
+      "Text": "trauma to the elbow",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9201511740684509,
+          "RelationshipScore": 0.8534350991249084,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 25,
+          "BeginOffset": 668,
+          "EndOffset": 673,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 25,
+      "BeginOffset": 668,
+      "EndOffset": 673,
+      "Score": 0.9201511740684509,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 26,
+      "BeginOffset": 721,
+      "EndOffset": 725,
+      "Score": 0.8617406487464905,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 28,
+          "BeginOffset": 743,
+          "EndOffset": 748,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 27,
+      "BeginOffset": 729,
+      "EndOffset": 735,
+      "Score": 0.90631103515625,
+      "Text": "injury",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8530592322349548
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 28,
+          "BeginOffset": 743,
+          "EndOffset": 748,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 28,
+      "BeginOffset": 743,
+      "EndOffset": 748,
+      "Score": 0.6603351831436157,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 29,
+      "BeginOffset": 749,
+      "EndOffset": 760,
+      "Score": 0.6603351831436157,
+      "Text": "in the past",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "OVERLAP",
+          "Id": 26,
+          "BeginOffset": 721,
+          "EndOffset": 725,
+          "Text": "pain",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "NEGATION",
+              "Score": 0.5296252369880676
+            },
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.9013108015060425
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 29,
+      "BeginOffset": 749,
+      "EndOffset": 760,
+      "Score": 0.6603351831436157,
+      "Text": "in the past",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.90631103515625,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "OVERLAP",
+          "Id": 27,
+          "BeginOffset": 729,
+          "EndOffset": 735,
+          "Text": "injury",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "NEGATION",
+              "Score": 0.8530592322349548
+            },
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.9405226111412048
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 30,
+      "BeginOffset": 804,
+      "EndOffset": 808,
+      "Score": 0.821601390838623,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "QUALITY",
+          "Id": 31,
+          "BeginOffset": 815,
+          "EndOffset": 820,
+          "Text": "sharp",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 32,
+          "BeginOffset": 821,
+          "EndOffset": 825,
+          "Text": "achy",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 33,
+          "BeginOffset": 841,
+          "EndOffset": 853,
+          "Text": "usually achy",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 34,
+      "BeginOffset": 888,
+      "EndOffset": 892,
+      "Score": 0.7172441482543945,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.7299559712409973
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 35,
+          "BeginOffset": 893,
+          "EndOffset": 909,
+          "Text": "radiate anywhere",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 37,
+          "BeginOffset": 928,
+          "EndOffset": 1003,
+          "Text": "pretty much in that one area okay just on the medial side of the left elbow",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "DIRECTION",
+          "Id": 38,
+          "BeginOffset": 974,
+          "EndOffset": 985,
+          "Text": "medial side",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 39,
+          "BeginOffset": 974,
+          "EndOffset": 1003,
+          "Text": "medial side of the left elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "DIRECTION",
+          "Id": 40,
+          "BeginOffset": 993,
+          "EndOffset": 997,
+          "Text": "left",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 39,
+      "BeginOffset": 974,
+      "EndOffset": 1003,
+      "Score": 0.7172441482543945,
+      "Text": "medial side of the left elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 41,
+      "BeginOffset": 1073,
+      "EndOffset": 1077,
+      "Score": 0.7172441482543945,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.779019296169281
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 42,
+      "BeginOffset": 1093,
+      "EndOffset": 1112,
+      "Score": 0.5971075296401978,
+      "Text": "alleviating factors",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 43,
+      "BeginOffset": 1131,
+      "EndOffset": 1137,
+      "Score": 0.6603351831436157,
+      "Text": "nsaids",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 44,
+      "BeginOffset": 1158,
+      "EndOffset": 1162,
+      "Score": 0.877546489238739,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 45,
+      "BeginOffset": 1223,
+      "EndOffset": 1227,
+      "Score": 0.8617406487464905,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 46,
+          "BeginOffset": 1228,
+          "EndOffset": 1233,
+          "Text": "worse",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 47,
+      "BeginOffset": 1277,
+      "EndOffset": 1282,
+      "Score": 0.5330596566200256,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 51,
+      "BeginOffset": 1357,
+      "EndOffset": 1362,
+      "Score": 0.7950295805931091,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 52,
+      "BeginOffset": 1405,
+      "EndOffset": 1409,
+      "Score": 0.8435389995574951,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 55,
+          "BeginOffset": 1495,
+          "EndOffset": 1499,
+          "Text": "five",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 54,
+      "BeginOffset": 1458,
+      "EndOffset": 1462,
+      "Score": 0.877546489238739,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 53,
+          "BeginOffset": 1452,
+          "EndOffset": 1457,
+          "Text": "worst",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 56,
+      "BeginOffset": 1541,
+      "EndOffset": 1549,
+      "Score": 0.5971075296401978,
+      "Text": "symptoms",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 57,
+      "BeginOffset": 1570,
+      "EndOffset": 1575,
+      "Score": 0.8435389995574951,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 58,
+      "BeginOffset": 1570,
+      "EndOffset": 1580,
+      "Score": 0.9350614547729492,
+      "Text": "elbow pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8435389995574951,
+          "RelationshipScore": 0.8219892978668213,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 57,
+          "BeginOffset": 1570,
+          "EndOffset": 1575,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 59,
+      "BeginOffset": 1614,
+      "EndOffset": 1628,
+      "Score": 0.7172441482543945,
+      "Text": "pretty healthy",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 60,
+      "BeginOffset": 1654,
+      "EndOffset": 1660,
+      "Score": 0.90631103515625,
+      "Text": "fevers",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 61,
+      "BeginOffset": 1664,
+      "EndOffset": 1670,
+      "Score": 0.9584784507751465,
+      "Text": "chills",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9405226111412048
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9817302823066711
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 62,
+      "BeginOffset": 1694,
+      "EndOffset": 1706,
+      "Score": 0.877546489238739,
+      "Text": "night sweats",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9013108015060425
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 63,
+      "BeginOffset": 1721,
+      "EndOffset": 1732,
+      "Score": 0.90631103515625,
+      "Text": "weight loss",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9013108015060425
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 64,
+      "BeginOffset": 1765,
+      "EndOffset": 1774,
+      "Score": 0.8617406487464905,
+      "Text": "headaches",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 65,
+      "BeginOffset": 1785,
+      "EndOffset": 1800,
+      "Score": 0.7172441482543945,
+      "Text": "sensory changes",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.7299559712409973
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 244,
+      "BeginOffset": 1806,
+      "EndOffset": 1808,
+      "Score": 0.1530134677886963,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 66,
+      "BeginOffset": 1809,
+      "EndOffset": 1831,
+      "Score": 0.7950295805931091,
+      "Text": "changes to your vision",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 67,
+      "BeginOffset": 1835,
+      "EndOffset": 1842,
+      "Score": 0.877546489238739,
+      "Text": "hearing",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8787732124328613
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 68,
+      "BeginOffset": 1856,
+      "EndOffset": 1861,
+      "Score": 0.7613970637321472,
+      "Text": "smell",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.779019296169281
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 69,
+      "BeginOffset": 1865,
+      "EndOffset": 1870,
+      "Score": 0.8921527862548828,
+      "Text": "taste",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9013108015060425
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 70,
+      "BeginOffset": 1896,
+      "EndOffset": 1899,
+      "Score": 0.821601390838623,
+      "Text": "eye",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 71,
+      "BeginOffset": 1896,
+      "EndOffset": 1907,
+      "Score": 0.7950295805931091,
+      "Text": "eye redness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.8031880259513855,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 70,
+          "BeginOffset": 1896,
+          "EndOffset": 1899,
+          "Text": "eye",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 72,
+      "BeginOffset": 1911,
+      "EndOffset": 1914,
+      "Score": 0.8435389995574951,
+      "Text": "eye",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 73,
+      "BeginOffset": 1911,
+      "EndOffset": 1924,
+      "Score": 0.8617406487464905,
+      "Text": "eye discharge",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8787732124328613
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8435389995574951,
+          "RelationshipScore": 0.8219892978668213,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 72,
+          "BeginOffset": 1911,
+          "EndOffset": 1914,
+          "Text": "eye",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 74,
+      "BeginOffset": 1938,
+      "EndOffset": 1942,
+      "Score": 0.8435389995574951,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 75,
+      "BeginOffset": 1966,
+      "EndOffset": 1976,
+      "Score": 0.821601390838623,
+      "Text": "runny nose",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9201511740684509,
+          "RelationshipScore": 0.7814922332763672,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 76,
+          "BeginOffset": 1972,
+          "EndOffset": 1976,
+          "Text": "nose",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 76,
+      "BeginOffset": 1972,
+      "EndOffset": 1976,
+      "Score": 0.9201511740684509,
+      "Text": "nose",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 77,
+      "BeginOffset": 1982,
+      "EndOffset": 1993,
+      "Score": 0.9350614547729492,
+      "Text": "sore throat",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9350614547729492,
+          "RelationshipScore": 0.8534350991249084,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 78,
+          "BeginOffset": 1987,
+          "EndOffset": 1993,
+          "Text": "throat",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 78,
+      "BeginOffset": 1987,
+      "EndOffset": 1993,
+      "Score": 0.9350614547729492,
+      "Text": "throat",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 79,
+      "BeginOffset": 2012,
+      "EndOffset": 2017,
+      "Score": 0.9584784507751465,
+      "Text": "cough",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9405226111412048
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9817302823066711
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 80,
+      "BeginOffset": 2021,
+      "EndOffset": 2040,
+      "Score": 0.9350614547729492,
+      "Text": "shortness of breath",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9405226111412048
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 81,
+      "BeginOffset": 2061,
+      "EndOffset": 2068,
+      "Score": 0.821601390838623,
+      "Text": "weeding",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 82,
+      "BeginOffset": 2094,
+      "EndOffset": 2099,
+      "Score": 0.7172441482543945,
+      "Text": "chest",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 83,
+      "BeginOffset": 2094,
+      "EndOffset": 2104,
+      "Score": 0.9350614547729492,
+      "Text": "chest pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8530592322349548
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 82,
+          "BeginOffset": 2094,
+          "EndOffset": 2099,
+          "Text": "chest",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 84,
+      "BeginOffset": 2115,
+      "EndOffset": 2130,
+      "Score": 0.9201511740684509,
+      "Text": "lightheadedness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 85,
+      "BeginOffset": 2134,
+      "EndOffset": 2143,
+      "Score": 0.9350614547729492,
+      "Text": "dizziness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9214484095573425
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 86,
+      "BeginOffset": 2167,
+      "EndOffset": 2172,
+      "Score": 0.8435389995574951,
+      "Text": "heart",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 87,
+      "BeginOffset": 2167,
+      "EndOffset": 2185,
+      "Score": 0.877546489238739,
+      "Text": "heart palpitations",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8530592322349548
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8435389995574951,
+          "RelationshipScore": 0.8219892978668213,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 86,
+          "BeginOffset": 2167,
+          "EndOffset": 2172,
+          "Text": "heart",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 88,
+      "BeginOffset": 2215,
+      "EndOffset": 2221,
+      "Score": 0.9584784507751465,
+      "Text": "nausea",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9817302823066711
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 89,
+      "BeginOffset": 2225,
+      "EndOffset": 2233,
+      "Score": 0.9584784507751465,
+      "Text": "vomiting",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9596198797225952
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9817302823066711
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 90,
+      "BeginOffset": 2257,
+      "EndOffset": 2266,
+      "Score": 0.8617406487464905,
+      "Text": "abdominal",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 91,
+      "BeginOffset": 2257,
+      "EndOffset": 2271,
+      "Score": 0.9584784507751465,
+      "Text": "abdominal pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8787732124328613
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9817302823066711
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.8534350991249084,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 90,
+          "BeginOffset": 2257,
+          "EndOffset": 2266,
+          "Text": "abdominal",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 92,
+      "BeginOffset": 2279,
+      "EndOffset": 2287,
+      "Score": 0.9201511740684509,
+      "Text": "diarrhea",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8787732124328613
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 93,
+      "BeginOffset": 2291,
+      "EndOffset": 2303,
+      "Score": 0.9350614547729492,
+      "Text": "constipation",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9405226111412048
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9817302823066711
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 94,
+      "BeginOffset": 2324,
+      "EndOffset": 2331,
+      "Score": 0.6603351831436157,
+      "Text": "urinary",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 95,
+      "BeginOffset": 2324,
+      "EndOffset": 2340,
+      "Score": 0.9350614547729492,
+      "Text": "urinary problems",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8530592322349548
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 94,
+          "BeginOffset": 2324,
+          "EndOffset": 2331,
+          "Text": "urinary",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 96,
+      "BeginOffset": 2366,
+      "EndOffset": 2370,
+      "Score": 0.8617406487464905,
+      "Text": "skin",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 97,
+      "BeginOffset": 2366,
+      "EndOffset": 2377,
+      "Score": 0.877546489238739,
+      "Text": "skin rashes",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8787732124328613
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.8386837244033813,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 96,
+          "BeginOffset": 2366,
+          "EndOffset": 2370,
+          "Text": "skin",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 100,
+      "BeginOffset": 2371,
+      "EndOffset": 2377,
+      "Score": 0.8435389995574951,
+      "Text": "rashes",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 98,
+      "BeginOffset": 2406,
+      "EndOffset": 2414,
+      "Score": 0.8921527862548828,
+      "Text": "numbness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 99,
+      "BeginOffset": 2418,
+      "EndOffset": 2426,
+      "Score": 0.9201511740684509,
+      "Text": "tingling",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 101,
+      "BeginOffset": 2451,
+      "EndOffset": 2457,
+      "Score": 0.8435389995574951,
+      "Text": "muscle",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 102,
+      "BeginOffset": 2451,
+      "EndOffset": 2466,
+      "Score": 0.9350614547729492,
+      "Text": "muscle weakness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8530592322349548
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8435389995574951,
+          "RelationshipScore": 0.8386837244033813,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 101,
+          "BeginOffset": 2451,
+          "EndOffset": 2457,
+          "Text": "muscle",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 103,
+      "BeginOffset": 2483,
+      "EndOffset": 2488,
+      "Score": 0.8435389995574951,
+      "Text": "joint",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 104,
+      "BeginOffset": 2483,
+      "EndOffset": 2494,
+      "Score": 0.90631103515625,
+      "Text": "joint pains",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8787732124328613
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8435389995574951,
+          "RelationshipScore": 0.8219892978668213,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 103,
+          "BeginOffset": 2483,
+          "EndOffset": 2488,
+          "Text": "joint",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 105,
+      "BeginOffset": 2528,
+      "EndOffset": 2550,
+      "Score": 0.7613970637321472,
+      "Text": "changes to your memory",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 245,
+      "BeginOffset": 2554,
+      "EndOffset": 2556,
+      "Score": 0.24665333330631256,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 106,
+      "BeginOffset": 2564,
+      "EndOffset": 2573,
+      "Score": 0.877546489238739,
+      "Text": "confusion",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8530592322349548
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 107,
+      "BeginOffset": 2603,
+      "EndOffset": 2610,
+      "Score": 0.8435389995574951,
+      "Text": "fatigue",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 108,
+      "BeginOffset": 2626,
+      "EndOffset": 2629,
+      "Score": 0.6603351831436157,
+      "Text": "ill",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 109,
+      "BeginOffset": 2651,
+      "EndOffset": 2675,
+      "Score": 0.7950295805931091,
+      "Text": "changes to your appetite",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 110,
+      "BeginOffset": 2724,
+      "EndOffset": 2742,
+      "Score": 0.7613970637321472,
+      "Text": "medical conditions",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 111,
+      "BeginOffset": 2743,
+      "EndOffset": 2754,
+      "Score": 0.6603351831436157,
+      "Text": "in the past",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "OVERLAP",
+          "Id": 110,
+          "BeginOffset": 2724,
+          "EndOffset": 2742,
+          "Text": "medical conditions",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "NEGATION",
+              "Score": 0.7299559712409973
+            },
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.8203471899032593
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 112,
+      "BeginOffset": 2782,
+      "EndOffset": 2793,
+      "Score": 0.7950295805931091,
+      "Text": "medications",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 113,
+      "BeginOffset": 2855,
+      "EndOffset": 2868,
+      "Score": 0.6603351831436157,
+      "Text": "multivitamins",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 114,
+      "BeginOffset": 2894,
+      "EndOffset": 2918,
+      "Score": 0.5971075296401978,
+      "Text": "allergies to medications",
+      "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+      "Type": "ALLERGIES",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 115,
+      "BeginOffset": 2907,
+      "EndOffset": 2918,
+      "Score": 0.5330596566200256,
+      "Text": "medications",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 246,
+      "BeginOffset": 2934,
+      "EndOffset": 2936,
+      "Score": 0.126570925116539,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 116,
+      "BeginOffset": 2980,
+      "EndOffset": 2989,
+      "Score": 0.5971075296401978,
+      "Text": "surgeries",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 117,
+      "BeginOffset": 3004,
+      "EndOffset": 3012,
+      "Score": 0.90631103515625,
+      "Text": "fracture",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 118,
+          "BeginOffset": 3048,
+          "EndOffset": 3079,
+          "Text": "humorous bone on the right side",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "DIRECTION",
+          "Id": 119,
+          "BeginOffset": 3069,
+          "EndOffset": 3079,
+          "Text": "right side",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 247,
+      "BeginOffset": 3039,
+      "EndOffset": 3041,
+      "Score": 0.18381449580192566,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 118,
+      "BeginOffset": 3048,
+      "EndOffset": 3079,
+      "Score": 0.5971075296401978,
+      "Text": "humorous bone on the right side",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 120,
+      "BeginOffset": 3103,
+      "EndOffset": 3111,
+      "Score": 0.8617406487464905,
+      "Text": "fracture",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 121,
+          "BeginOffset": 3129,
+          "EndOffset": 3132,
+          "Text": "arm",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 121,
+      "BeginOffset": 3129,
+      "EndOffset": 3132,
+      "Score": 0.5330596566200256,
+      "Text": "arm",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 122,
+      "BeginOffset": 3158,
+      "EndOffset": 3167,
+      "Score": 0.5330596566200256,
+      "Text": "heal okay",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 248,
+      "BeginOffset": 3221,
+      "EndOffset": 3223,
+      "Score": 0.22175467014312744,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 249,
+      "BeginOffset": 3374,
+      "EndOffset": 3376,
+      "Score": 0.45392581820487976,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 250,
+      "BeginOffset": 3431,
+      "EndOffset": 3433,
+      "Score": 0.2191641479730606,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 251,
+      "BeginOffset": 3480,
+      "EndOffset": 3482,
+      "Score": 0.14948317408561707,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 252,
+      "BeginOffset": 3487,
+      "EndOffset": 3489,
+      "Score": 0.26219311356544495,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 253,
+      "BeginOffset": 3558,
+      "EndOffset": 3560,
+      "Score": 0.11531232297420502,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 123,
+      "BeginOffset": 3564,
+      "EndOffset": 3568,
+      "Score": 0.821601390838623,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 254,
+      "BeginOffset": 3575,
+      "EndOffset": 3577,
+      "Score": 0.2350330501794815,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 255,
+      "BeginOffset": 3612,
+      "EndOffset": 3614,
+      "Score": 0.22466543316841125,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 256,
+      "BeginOffset": 3748,
+      "EndOffset": 3760,
+      "Score": 0.4326954185962677,
+      "Text": "uh uh sports",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "PROFESSION",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 124,
+      "BeginOffset": 3809,
+      "EndOffset": 3813,
+      "Score": 0.9201511740684509,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.877546489238739,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 125,
+          "BeginOffset": 3820,
+          "EndOffset": 3823,
+          "Text": "arm",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.8219892978668213,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 126,
+          "BeginOffset": 3831,
+          "EndOffset": 3836,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 125,
+      "BeginOffset": 3820,
+      "EndOffset": 3823,
+      "Score": 0.877546489238739,
+      "Text": "arm",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 126,
+      "BeginOffset": 3831,
+      "EndOffset": 3836,
+      "Score": 0.8617406487464905,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 127,
+      "BeginOffset": 3866,
+      "EndOffset": 3881,
+      "Score": 0.5971075296401978,
+      "Text": "past six months",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.9201511740684509,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "OVERLAP",
+          "Id": 124,
+          "BeginOffset": 3809,
+          "EndOffset": 3813,
+          "Text": "pain",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.9405226111412048
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 128,
+      "BeginOffset": 3915,
+      "EndOffset": 3925,
+      "Score": 0.5971075296401978,
+      "Text": "cigarettes",
+      "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+      "Type": "TOBACCO_USE",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 129,
+      "BeginOffset": 3950,
+      "EndOffset": 3957,
+      "Score": 0.5971075296401978,
+      "Text": "alcohol",
+      "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+      "Type": "ALCOHOL_CONSUMPTION",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "AMOUNT",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "AMOUNT",
+          "Id": 130,
+          "BeginOffset": 3970,
+          "EndOffset": 3985,
+          "Text": "a glass of wine",
+          "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+          "Traits": []
+        },
+        {
+          "Type": "FREQUENCY",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.7814922332763672,
+          "RelationshipType": "FREQUENCY",
+          "Id": 131,
+          "BeginOffset": 3986,
+          "EndOffset": 4001,
+          "Text": "every other day",
+          "Category": "MEDICATION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 132,
+      "BeginOffset": 4024,
+      "EndOffset": 4053,
+      "Score": 0.5971075296401978,
+      "Text": "use of any recreational drugs",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 133,
+      "BeginOffset": 4035,
+      "EndOffset": 4053,
+      "Score": 0.6603351831436157,
+      "Text": "recreational drugs",
+      "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+      "Type": "REC_DRUG_USE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 134,
+      "BeginOffset": 4059,
+      "EndOffset": 4067,
+      "Score": 0.6603351831436157,
+      "Text": "cannabis",
+      "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+      "Type": "REC_DRUG_USE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 135,
+      "BeginOffset": 4095,
+      "EndOffset": 4100,
+      "Score": 0.5330596566200256,
+      "Text": "smoke",
+      "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+      "Type": "TOBACCO_USE",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "FREQUENCY",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "FREQUENCY",
+          "Id": 136,
+          "BeginOffset": 4109,
+          "EndOffset": 4120,
+          "Text": "once a week",
+          "Category": "MEDICATION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 137,
+      "BeginOffset": 4103,
+      "EndOffset": 4108,
+      "Score": 0.6603351831436157,
+      "Text": "joint",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 257,
+      "BeginOffset": 4133,
+      "EndOffset": 4135,
+      "Score": 0.25409653782844543,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 138,
+      "BeginOffset": 4174,
+      "EndOffset": 4178,
+      "Score": 0.5971075296401978,
+      "Text": "hard",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 139,
+      "BeginOffset": 4182,
+      "EndOffset": 4186,
+      "Score": 0.7613970637321472,
+      "Text": "lung",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 140,
+      "BeginOffset": 4187,
+      "EndOffset": 4195,
+      "Score": 0.6603351831436157,
+      "Text": "problems",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "PERTAINS_TO_FAMILY",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 138,
+          "BeginOffset": 4174,
+          "EndOffset": 4178,
+          "Text": "hard",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 139,
+          "BeginOffset": 4182,
+          "EndOffset": 4186,
+          "Text": "lung",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 141,
+      "BeginOffset": 4206,
+      "EndOffset": 4221,
+      "Score": 0.7172441482543945,
+      "Text": "musculoskeletal",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 142,
+      "BeginOffset": 4225,
+      "EndOffset": 4237,
+      "Score": 0.7172441482543945,
+      "Text": "neurological",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 143,
+      "BeginOffset": 4238,
+      "EndOffset": 4246,
+      "Score": 0.7613970637321472,
+      "Text": "diseases",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "PERTAINS_TO_FAMILY",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.779019296169281
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 141,
+          "BeginOffset": 4206,
+          "EndOffset": 4221,
+          "Text": "musculoskeletal",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 142,
+          "BeginOffset": 4225,
+          "EndOffset": 4237,
+          "Text": "neurological",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 144,
+      "BeginOffset": 4273,
+      "EndOffset": 4292,
+      "Score": 0.7950295805931091,
+      "Text": "autoimmune diseases",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "PERTAINS_TO_FAMILY",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 145,
+      "BeginOffset": 4298,
+      "EndOffset": 4305,
+      "Score": 0.7172441482543945,
+      "Text": "thyroid",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 146,
+      "BeginOffset": 4298,
+      "EndOffset": 4313,
+      "Score": 0.8617406487464905,
+      "Text": "thyroid disease",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "PERTAINS_TO_FAMILY",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 145,
+          "BeginOffset": 4298,
+          "EndOffset": 4305,
+          "Text": "thyroid",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 147,
+      "BeginOffset": 4317,
+      "EndOffset": 4325,
+      "Score": 0.9201511740684509,
+      "Text": "diabetes",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "PERTAINS_TO_FAMILY",
+          "Score": 0.8787732124328613
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 258,
+      "BeginOffset": 4366,
+      "EndOffset": 4368,
+      "Score": 0.463130921125412,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 259,
+      "BeginOffset": 4382,
+      "EndOffset": 4384,
+      "Score": 0.21869461238384247,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 148,
+      "BeginOffset": 4385,
+      "EndOffset": 4399,
+      "Score": 0.6603351831436157,
+      "Text": "physical exams",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 149,
+      "BeginOffset": 4424,
+      "EndOffset": 4429,
+      "Score": 0.821601390838623,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 150,
+      "BeginOffset": 4454,
+      "EndOffset": 4462,
+      "Score": 0.8921527862548828,
+      "Text": "swelling",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 149,
+          "BeginOffset": 4424,
+          "EndOffset": 4429,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 151,
+      "BeginOffset": 4466,
+      "EndOffset": 4473,
+      "Score": 0.9350614547729492,
+      "Text": "redness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9214484095573425
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.7814922332763672,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 149,
+          "BeginOffset": 4424,
+          "EndOffset": 4429,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 152,
+      "BeginOffset": 4513,
+      "EndOffset": 4519,
+      "Score": 0.7613970637321472,
+      "Text": "muscle",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 153,
+      "BeginOffset": 4513,
+      "EndOffset": 4527,
+      "Score": 0.877546489238739,
+      "Text": "muscle atrophy",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6768204569816589
+        },
+        {
+          "Name": "SIGN",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 152,
+          "BeginOffset": 4513,
+          "EndOffset": 4519,
+          "Text": "muscle",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 154,
+          "BeginOffset": 4542,
+          "EndOffset": 4549,
+          "Text": "forearm",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 155,
+          "BeginOffset": 4561,
+          "EndOffset": 4567,
+          "Text": "biceps",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.877546489238739,
+          "RelationshipScore": 0.7814922332763672,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 156,
+          "BeginOffset": 4571,
+          "EndOffset": 4578,
+          "Text": "triceps",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 154,
+      "BeginOffset": 4542,
+      "EndOffset": 4549,
+      "Score": 0.7172441482543945,
+      "Text": "forearm",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 155,
+      "BeginOffset": 4561,
+      "EndOffset": 4567,
+      "Score": 0.6603351831436157,
+      "Text": "biceps",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 156,
+      "BeginOffset": 4571,
+      "EndOffset": 4578,
+      "Score": 0.877546489238739,
+      "Text": "triceps",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 157,
+      "BeginOffset": 4605,
+      "EndOffset": 4617,
+      "Score": 0.7613970637321472,
+      "Text": "misalignment",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SIGN",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 155,
+          "BeginOffset": 4561,
+          "EndOffset": 4567,
+          "Text": "biceps",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.877546489238739,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 156,
+          "BeginOffset": 4571,
+          "EndOffset": 4578,
+          "Text": "triceps",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 158,
+      "BeginOffset": 4624,
+      "EndOffset": 4629,
+      "Score": 0.7613970637321472,
+      "Text": "joint",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 159,
+      "BeginOffset": 4624,
+      "EndOffset": 4639,
+      "Score": 0.90631103515625,
+      "Text": "joint deformity",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SIGN",
+          "Score": 0.7299559712409973
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7814922332763672,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 158,
+          "BeginOffset": 4624,
+          "EndOffset": 4629,
+          "Text": "joint",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 160,
+      "BeginOffset": 4689,
+      "EndOffset": 4694,
+      "Score": 0.90631103515625,
+      "Text": "scars",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SIGN",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 162,
+      "BeginOffset": 4735,
+      "EndOffset": 4759,
+      "Score": 0.7613970637321472,
+      "Text": "medial part of the elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 163,
+      "BeginOffset": 4772,
+      "EndOffset": 4776,
+      "Score": 0.5971075296401978,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "DIRECTION",
+          "Id": 161,
+          "BeginOffset": 4735,
+          "EndOffset": 4746,
+          "Text": "medial part",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 162,
+          "BeginOffset": 4735,
+          "EndOffset": 4759,
+          "Text": "medial part of the elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 164,
+      "BeginOffset": 4832,
+      "EndOffset": 4854,
+      "Score": 0.5330596566200256,
+      "Text": "pain over the electron",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 165,
+          "BeginOffset": 4837,
+          "EndOffset": 4854,
+          "Text": "over the electron",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 166,
+          "BeginOffset": 4861,
+          "EndOffset": 4873,
+          "Text": "a little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 165,
+      "BeginOffset": 4837,
+      "EndOffset": 4854,
+      "Score": 0.5330596566200256,
+      "Text": "over the electron",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 260,
+      "BeginOffset": 4858,
+      "EndOffset": 4860,
+      "Score": 0.2592346966266632,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 167,
+      "BeginOffset": 4896,
+      "EndOffset": 4935,
+      "Score": 0.6603351831436157,
+      "Text": "pain over the lateral part of the elbow",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "DIRECTION",
+          "Id": 168,
+          "BeginOffset": 4910,
+          "EndOffset": 4917,
+          "Text": "lateral",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 169,
+          "BeginOffset": 4910,
+          "EndOffset": 4935,
+          "Text": "lateral part of the elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 169,
+      "BeginOffset": 4910,
+      "EndOffset": 4935,
+      "Score": 0.7613970637321472,
+      "Text": "lateral part of the elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 170,
+      "BeginOffset": 4952,
+      "EndOffset": 4973,
+      "Score": 0.6603351831436157,
+      "Text": "pain over the forearm",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 171,
+          "BeginOffset": 4966,
+          "EndOffset": 4973,
+          "Text": "forearm",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 172,
+          "BeginOffset": 4977,
+          "EndOffset": 4983,
+          "Text": "biceps",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 173,
+          "BeginOffset": 4987,
+          "EndOffset": 4994,
+          "Text": "triceps",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 174,
+          "BeginOffset": 4995,
+          "EndOffset": 5010,
+          "Text": "musculoskeletal",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 171,
+      "BeginOffset": 4966,
+      "EndOffset": 4973,
+      "Score": 0.7172441482543945,
+      "Text": "forearm",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 172,
+      "BeginOffset": 4977,
+      "EndOffset": 4983,
+      "Score": 0.821601390838623,
+      "Text": "biceps",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 173,
+      "BeginOffset": 4987,
+      "EndOffset": 4994,
+      "Score": 0.821601390838623,
+      "Text": "triceps",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 174,
+      "BeginOffset": 4995,
+      "EndOffset": 5010,
+      "Score": 0.5330596566200256,
+      "Text": "musculoskeletal",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 176,
+      "BeginOffset": 4995,
+      "EndOffset": 5010,
+      "Score": 0.6603351831436157,
+      "Text": "musculoskeletal",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 175,
+      "BeginOffset": 5035,
+      "EndOffset": 5040,
+      "Score": 0.5330596566200256,
+      "Text": "joint",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 177,
+      "BeginOffset": 5044,
+      "EndOffset": 5061,
+      "Score": 0.5330596566200256,
+      "Text": "feel like its hot",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 175,
+          "BeginOffset": 5035,
+          "EndOffset": 5040,
+          "Text": "joint",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 178,
+      "BeginOffset": 5081,
+      "EndOffset": 5085,
+      "Score": 0.821601390838623,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 179,
+          "BeginOffset": 5091,
+          "EndOffset": 5099,
+          "Text": "shoulder",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7950295805931091,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 180,
+          "BeginOffset": 5103,
+          "EndOffset": 5108,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 179,
+      "BeginOffset": 5091,
+      "EndOffset": 5099,
+      "Score": 0.6603351831436157,
+      "Text": "shoulder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 180,
+      "BeginOffset": 5103,
+      "EndOffset": 5108,
+      "Score": 0.7950295805931091,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 181,
+      "BeginOffset": 5154,
+      "EndOffset": 5159,
+      "Score": 0.5971075296401978,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 183,
+      "BeginOffset": 5203,
+      "EndOffset": 5208,
+      "Score": 0.7613970637321472,
+      "Text": "hurts",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.779019296169281
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 181,
+          "BeginOffset": 5154,
+          "EndOffset": 5159,
+          "Text": "elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 182,
+          "BeginOffset": 5163,
+          "EndOffset": 5199,
+          "Text": "when i straighten it out all the way",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 184,
+          "BeginOffset": 5209,
+          "EndOffset": 5221,
+          "Text": "a little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 185,
+      "BeginOffset": 5286,
+      "EndOffset": 5290,
+      "Score": 0.90631103515625,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 186,
+          "BeginOffset": 5291,
+          "EndOffset": 5314,
+          "Text": "with shoulder movements",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 187,
+          "BeginOffset": 5296,
+          "EndOffset": 5304,
+          "Text": "shoulder",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 187,
+      "BeginOffset": 5296,
+      "EndOffset": 5304,
+      "Score": 0.821601390838623,
+      "Text": "shoulder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 188,
+      "BeginOffset": 5319,
+      "EndOffset": 5339,
+      "Score": 0.8435389995574951,
+      "Text": "full range of motion",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 189,
+      "BeginOffset": 5346,
+      "EndOffset": 5350,
+      "Score": 0.90631103515625,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 190,
+          "BeginOffset": 5356,
+          "EndOffset": 5364,
+          "Text": "shoulder",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 190,
+      "BeginOffset": 5356,
+      "EndOffset": 5364,
+      "Score": 0.5330596566200256,
+      "Text": "shoulder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 191,
+      "BeginOffset": 5390,
+      "EndOffset": 5394,
+      "Score": 0.7950295805931091,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 192,
+          "BeginOffset": 5395,
+          "EndOffset": 5409,
+          "Text": "with pronation",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "DIRECTION",
+          "Id": 195,
+          "BeginOffset": 5473,
+          "EndOffset": 5484,
+          "Text": "medial side",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 193,
+      "BeginOffset": 5417,
+      "EndOffset": 5442,
+      "Score": 0.5330596566200256,
+      "Text": "supination with pronation",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 194,
+          "BeginOffset": 5446,
+          "EndOffset": 5451,
+          "Text": "hurts",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "DIRECTION",
+          "Id": 195,
+          "BeginOffset": 5473,
+          "EndOffset": 5484,
+          "Text": "medial side",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 197,
+      "BeginOffset": 5519,
+      "EndOffset": 5524,
+      "Score": 0.7172441482543945,
+      "Text": "wrist",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 261,
+      "BeginOffset": 5533,
+      "EndOffset": 5550,
+      "Score": 0.13468901813030243,
+      "Text": "uh resisted um uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ID",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 198,
+      "BeginOffset": 5556,
+      "EndOffset": 5561,
+      "Score": 0.6603351831436157,
+      "Text": "wrist",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 199,
+      "BeginOffset": 5556,
+      "EndOffset": 5585,
+      "Score": 0.5330596566200256,
+      "Text": "wrist uh flexion rest flexion",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 198,
+          "BeginOffset": 5556,
+          "EndOffset": 5561,
+          "Text": "wrist",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 200,
+          "BeginOffset": 5596,
+          "EndOffset": 5605,
+          "Text": "hurts too",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 201,
+      "BeginOffset": 5664,
+      "EndOffset": 5669,
+      "Score": 0.5971075296401978,
+      "Text": "wrist",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 203,
+      "BeginOffset": 5738,
+      "EndOffset": 5743,
+      "Score": 0.8617406487464905,
+      "Text": "hurts",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 201,
+          "BeginOffset": 5664,
+          "EndOffset": 5669,
+          "Text": "wrist",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 202,
+          "BeginOffset": 5670,
+          "EndOffset": 5725,
+          "Text": "as far down as as you can go down as as you can go down",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 204,
+      "BeginOffset": 5776,
+      "EndOffset": 5784,
+      "Score": 0.8921527862548828,
+      "Text": "numbness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 205,
+      "BeginOffset": 5792,
+      "EndOffset": 5800,
+      "Score": 0.821601390838623,
+      "Text": "tingling",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 206,
+      "BeginOffset": 5822,
+      "EndOffset": 5830,
+      "Score": 0.7950295805931091,
+      "Text": "numbness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 207,
+      "BeginOffset": 5834,
+      "EndOffset": 5842,
+      "Score": 0.90631103515625,
+      "Text": "tingling",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.9013108015060425
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 262,
+      "BeginOffset": 5902,
+      "EndOffset": 5904,
+      "Score": 0.5413894653320312,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 210,
+      "BeginOffset": 6087,
+      "EndOffset": 6114,
+      "Score": 0.821601390838623,
+      "Text": "medial aspect of your elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 211,
+      "BeginOffset": 6125,
+      "EndOffset": 6129,
+      "Score": 0.821601390838623,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "DIRECTION",
+          "Id": 209,
+          "BeginOffset": 6087,
+          "EndOffset": 6100,
+          "Text": "medial aspect",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.8219892978668213,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 210,
+          "BeginOffset": 6087,
+          "EndOffset": 6114,
+          "Text": "medial aspect of your elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 212,
+      "BeginOffset": 6136,
+      "EndOffset": 6155,
+      "Score": 0.7172441482543945,
+      "Text": "last several months",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "OVERLAP",
+          "Id": 211,
+          "BeginOffset": 6125,
+          "EndOffset": 6129,
+          "Text": "pain",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.8530592322349548
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 213,
+      "BeginOffset": 6167,
+      "EndOffset": 6180,
+      "Score": 0.7172441482543945,
+      "Text": "physical exam",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 214,
+      "BeginOffset": 6203,
+      "EndOffset": 6229,
+      "Score": 0.5971075296401978,
+      "Text": "passive uh wrist extension",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 215,
+          "BeginOffset": 6214,
+          "EndOffset": 6219,
+          "Text": "wrist",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 215,
+      "BeginOffset": 6214,
+      "EndOffset": 6219,
+      "Score": 0.821601390838623,
+      "Text": "wrist",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 216,
+      "BeginOffset": 6230,
+      "EndOffset": 6252,
+      "Score": 0.8617406487464905,
+      "Text": "resisted wrist flexion",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 217,
+          "BeginOffset": 6239,
+          "EndOffset": 6244,
+          "Text": "wrist",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 217,
+      "BeginOffset": 6239,
+      "EndOffset": 6244,
+      "Score": 0.821601390838623,
+      "Text": "wrist",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 218,
+      "BeginOffset": 6264,
+      "EndOffset": 6273,
+      "Score": 0.7613970637321472,
+      "Text": "pronation",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 219,
+      "BeginOffset": 6288,
+      "EndOffset": 6320,
+      "Score": 0.5330596566200256,
+      "Text": "tenderness over the medial elbow",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "DIRECTION",
+          "Id": 220,
+          "BeginOffset": 6308,
+          "EndOffset": 6314,
+          "Text": "medial",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 221,
+          "BeginOffset": 6308,
+          "EndOffset": 6320,
+          "Text": "medial elbow",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 221,
+      "BeginOffset": 6308,
+      "EndOffset": 6320,
+      "Score": 0.7613970637321472,
+      "Text": "medial elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 226,
+      "BeginOffset": 6315,
+      "EndOffset": 6320,
+      "Score": 0.5330596566200256,
+      "Text": "elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 223,
+      "BeginOffset": 6342,
+      "EndOffset": 6358,
+      "Score": 0.5330596566200256,
+      "Text": "medial um epicon",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 224,
+      "BeginOffset": 6342,
+      "EndOffset": 6366,
+      "Score": 0.5330596566200256,
+      "Text": "medial um epicon delitis",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "LOW_CONFIDENCE",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SIGN",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "DIRECTION",
+          "Id": 222,
+          "BeginOffset": 6342,
+          "EndOffset": 6348,
+          "Text": "medial",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 223,
+          "BeginOffset": 6342,
+          "EndOffset": 6358,
+          "Text": "medial um epicon",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 225,
+      "BeginOffset": 6378,
+      "EndOffset": 6384,
+      "Score": 0.6603351831436157,
+      "Text": "tendon",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 227,
+      "BeginOffset": 6378,
+      "EndOffset": 6391,
+      "Score": 0.9201511740684509,
+      "Text": "tendon opathy",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "LOW_CONFIDENCE",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.7299559712409973
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 225,
+          "BeginOffset": 6378,
+          "EndOffset": 6384,
+          "Text": "tendon",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 228,
+      "BeginOffset": 6449,
+      "EndOffset": 6470,
+      "Score": 0.5971075296401978,
+      "Text": "activity modification",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 229,
+      "BeginOffset": 6491,
+      "EndOffset": 6527,
+      "Score": 0.5330596566200256,
+      "Text": "trying to avoid repetitive movements",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 230,
+      "BeginOffset": 6544,
+      "EndOffset": 6548,
+      "Score": 0.8617406487464905,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 231,
+      "BeginOffset": 6562,
+      "EndOffset": 6573,
+      "Score": 0.7172441482543945,
+      "Text": "medications",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 232,
+      "BeginOffset": 6585,
+      "EndOffset": 6594,
+      "Score": 0.6603351831436157,
+      "Text": "advellant",
+      "Category": "MEDICATION",
+      "Type": "BRAND_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 233,
+      "BeginOffset": 6595,
+      "EndOffset": 6602,
+      "Score": 0.821601390838623,
+      "Text": "tylenol",
+      "Category": "MEDICATION",
+      "Type": "BRAND_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 234,
+      "BeginOffset": 6616,
+      "EndOffset": 6654,
+      "Score": 0.6603351831436157,
+      "Text": "strengthening and stretching exercises",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 263,
+      "BeginOffset": 6683,
+      "EndOffset": 6685,
+      "Score": 0.480716735124588,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 264,
+      "BeginOffset": 6709,
+      "EndOffset": 6711,
+      "Score": 0.3873458802700043,
+      "Text": "um",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 265,
+      "BeginOffset": 6747,
+      "EndOffset": 6749,
+      "Score": 0.13801079988479614,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 236,
+      "BeginOffset": 6772,
+      "EndOffset": 6796,
+      "Score": 0.7172441482543945,
+      "Text": "medial side of the elbow",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 237,
+      "BeginOffset": 6820,
+      "EndOffset": 6837,
+      "Score": 0.6603351831436157,
+      "Text": "ulnar uh ligament",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 238,
+      "BeginOffset": 6820,
+      "EndOffset": 6844,
+      "Score": 0.7172441482543945,
+      "Text": "ulnar uh ligament injury",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "LOW_CONFIDENCE",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 237,
+          "BeginOffset": 6820,
+          "EndOffset": 6837,
+          "Text": "ulnar uh ligament",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 266,
+      "BeginOffset": 6851,
+      "EndOffset": 6853,
+      "Score": 0.10975071787834167,
+      "Text": "uh",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 239,
+      "BeginOffset": 6902,
+      "EndOffset": 6916,
+      "Score": 0.7613970637321472,
+      "Text": "ulnar ligament",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 240,
+      "BeginOffset": 6902,
+      "EndOffset": 6923,
+      "Score": 0.9201511740684509,
+      "Text": "ulnar ligament injury",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "LOW_CONFIDENCE",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 239,
+          "BeginOffset": 6902,
+          "EndOffset": 6916,
+          "Text": "ulnar ligament",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 241,
+      "BeginOffset": 6941,
+      "EndOffset": 6945,
+      "Score": 0.8921527862548828,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "HYPOTHETICAL",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 242,
+          "BeginOffset": 6946,
+          "EndOffset": 6961,
+          "Text": "isnt going away",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 243,
+      "BeginOffset": 6988,
+      "EndOffset": 6998,
+      "Score": 0.821601390838623,
+      "Text": "ultrasound",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    }
+  ]
+}

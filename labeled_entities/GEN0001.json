@@ -1,0 +1,2180 @@
+{
+  "file": "GEN0001.json",
+  "entities": [
+    {
+      "Id": 1,
+      "BeginOffset": 63,
+      "EndOffset": 70,
+      "Score": 0.5330596566200256,
+      "Text": "bladder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 2,
+      "BeginOffset": 63,
+      "EndOffset": 80,
+      "Score": 0.8921527862548828,
+      "Text": "bladder infection",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "LOW_CONFIDENCE",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 1,
+          "BeginOffset": 63,
+          "EndOffset": 70,
+          "Text": "bladder",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 4,
+      "BeginOffset": 122,
+      "EndOffset": 128,
+      "Score": 0.5971075296401978,
+      "Text": "issues",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "QUALITY",
+          "Id": 3,
+          "BeginOffset": 117,
+          "EndOffset": 121,
+          "Text": "some",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 5,
+      "BeginOffset": 137,
+      "EndOffset": 155,
+      "Score": 0.877546489238739,
+      "Text": "overactive bladder",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 6,
+          "BeginOffset": 148,
+          "EndOffset": 155,
+          "Text": "bladder",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 6,
+      "BeginOffset": 148,
+      "EndOffset": 155,
+      "Score": 0.7172441482543945,
+      "Text": "bladder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 7,
+      "BeginOffset": 156,
+      "EndOffset": 167,
+      "Score": 0.5330596566200256,
+      "Text": "for a while",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.877546489238739,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "OVERLAP",
+          "Id": 5,
+          "BeginOffset": 137,
+          "EndOffset": 155,
+          "Text": "overactive bladder",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "DIAGNOSIS",
+              "Score": 0.47435709834098816
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 9,
+      "BeginOffset": 184,
+      "EndOffset": 191,
+      "Score": 0.8617406487464905,
+      "Text": "bladder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 10,
+      "BeginOffset": 184,
+      "EndOffset": 202,
+      "Score": 0.90631103515625,
+      "Text": "bladder infections",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "QUALITY",
+          "Id": 8,
+          "BeginOffset": 180,
+          "EndOffset": 183,
+          "Text": "few",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.8534350991249084,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 9,
+          "BeginOffset": 184,
+          "EndOffset": 191,
+          "Text": "bladder",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 11,
+      "BeginOffset": 203,
+      "EndOffset": 214,
+      "Score": 0.6603351831436157,
+      "Text": "in the past",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.90631103515625,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "OVERLAP",
+          "Id": 10,
+          "BeginOffset": 184,
+          "EndOffset": 202,
+          "Text": "bladder infections",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "DIAGNOSIS",
+              "Score": 0.6248409748077393
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 13,
+      "BeginOffset": 273,
+      "EndOffset": 280,
+      "Score": 0.8921527862548828,
+      "Text": "burning",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 12,
+          "BeginOffset": 259,
+          "EndOffset": 269,
+          "Text": "little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 14,
+          "BeginOffset": 281,
+          "EndOffset": 306,
+          "Text": "when i go to the bathroom",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 15,
+          "BeginOffset": 313,
+          "EndOffset": 333,
+          "Text": "have to go a lot now",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 16,
+      "BeginOffset": 401,
+      "EndOffset": 407,
+      "Score": 0.6603351831436157,
+      "Text": "period",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 17,
+      "BeginOffset": 429,
+      "EndOffset": 435,
+      "Score": 0.821601390838623,
+      "Text": "period",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 18,
+      "BeginOffset": 536,
+      "EndOffset": 545,
+      "Score": 0.877546489238739,
+      "Text": "infection",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "HYPOTHETICAL",
+          "Score": 0.6768204569816589
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 19,
+      "BeginOffset": 620,
+      "EndOffset": 626,
+      "Score": 0.5971075296401978,
+      "Text": "period",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 20,
+      "BeginOffset": 628,
+      "EndOffset": 641,
+      "Score": 0.5971075296401978,
+      "Text": "two weeks ago",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "OVERLAP",
+          "Id": 19,
+          "BeginOffset": 620,
+          "EndOffset": 626,
+          "Text": "period",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.5752319693565369
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 21,
+      "BeginOffset": 712,
+      "EndOffset": 727,
+      "Score": 0.5971075296401978,
+      "Text": "super irregular",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 22,
+      "BeginOffset": 785,
+      "EndOffset": 803,
+      "Score": 0.5330596566200256,
+      "Text": "cycle's four weeks",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 23,
+          "BeginOffset": 808,
+          "EndOffset": 832,
+          "Text": "sometimes it's more five",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 24,
+      "BeginOffset": 916,
+      "EndOffset": 929,
+      "Score": 0.7613970637321472,
+      "Text": "contraception",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 25,
+      "BeginOffset": 1026,
+      "EndOffset": 1044,
+      "Score": 0.7172441482543945,
+      "Text": "retract infections",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 26,
+      "BeginOffset": 1080,
+      "EndOffset": 1096,
+      "Score": 0.6603351831436157,
+      "Text": "three months ago",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "OVERLAP",
+          "Id": 25,
+          "BeginOffset": 1026,
+          "EndOffset": 1044,
+          "Text": "retract infections",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "NEGATION",
+              "Score": 0.47435709834098816
+            },
+            {
+              "Name": "DIAGNOSIS",
+              "Score": 0.5752319693565369
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 27,
+      "BeginOffset": 1146,
+      "EndOffset": 1157,
+      "Score": 0.7613970637321472,
+      "Text": "antibiotics",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [
+        {
+          "Name": "HYPOTHETICAL",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 28,
+      "BeginOffset": 1234,
+      "EndOffset": 1250,
+      "Score": 0.8435389995574951,
+      "Text": "reactive bladder",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SIGN",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8921527862548828,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 29,
+          "BeginOffset": 1243,
+          "EndOffset": 1250,
+          "Text": "bladder",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 29,
+      "BeginOffset": 1243,
+      "EndOffset": 1250,
+      "Score": 0.8921527862548828,
+      "Text": "bladder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 30,
+      "BeginOffset": 1391,
+      "EndOffset": 1395,
+      "Score": 0.821601390838623,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 32,
+      "BeginOffset": 1448,
+      "EndOffset": 1455,
+      "Score": 0.8435389995574951,
+      "Text": "urgency",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 31,
+          "BeginOffset": 1433,
+          "EndOffset": 1444,
+          "Text": "quite a bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 34,
+      "BeginOffset": 1580,
+      "EndOffset": 1585,
+      "Score": 0.6603351831436157,
+      "Text": "burns",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 33,
+          "BeginOffset": 1542,
+          "EndOffset": 1552,
+          "Text": "little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 35,
+          "BeginOffset": 1586,
+          "EndOffset": 1598,
+          "Text": "a little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 37,
+      "BeginOffset": 1600,
+      "EndOffset": 1606,
+      "Score": 0.877546489238739,
+      "Text": "stings",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 36,
+          "BeginOffset": 1588,
+          "EndOffset": 1598,
+          "Text": "little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "QUALITY",
+          "Id": 38,
+          "BeginOffset": 1607,
+          "EndOffset": 1619,
+          "Text": "a little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 41,
+      "BeginOffset": 1921,
+      "EndOffset": 1925,
+      "Score": 0.8617406487464905,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "DIRECTION",
+          "Id": 42,
+          "BeginOffset": 1934,
+          "EndOffset": 1940,
+          "Text": "behind",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 43,
+          "BeginOffset": 1934,
+          "EndOffset": 1950,
+          "Text": "behind your ribs",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 44,
+          "BeginOffset": 1967,
+          "EndOffset": 1971,
+          "Text": "back",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 43,
+      "BeginOffset": 1934,
+      "EndOffset": 1950,
+      "Score": 0.7613970637321472,
+      "Text": "behind your ribs",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 44,
+      "BeginOffset": 1967,
+      "EndOffset": 1971,
+      "Score": 0.6603351831436157,
+      "Text": "back",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 45,
+      "BeginOffset": 2012,
+      "EndOffset": 2016,
+      "Score": 0.90631103515625,
+      "Text": "pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 46,
+          "BeginOffset": 2025,
+          "EndOffset": 2029,
+          "Text": "back",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "DIRECTION",
+          "Id": 47,
+          "BeginOffset": 2031,
+          "EndOffset": 2037,
+          "Text": "middle",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7950295805931091,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 48,
+          "BeginOffset": 2031,
+          "EndOffset": 2042,
+          "Text": "middle back",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 49,
+          "BeginOffset": 2051,
+          "EndOffset": 2069,
+          "Text": "close to your ribs",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 46,
+      "BeginOffset": 2025,
+      "EndOffset": 2029,
+      "Score": 0.7613970637321472,
+      "Text": "back",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 48,
+      "BeginOffset": 2031,
+      "EndOffset": 2042,
+      "Score": 0.7950295805931091,
+      "Text": "middle back",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 49,
+      "BeginOffset": 2051,
+      "EndOffset": 2069,
+      "Score": 0.5330596566200256,
+      "Text": "close to your ribs",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 51,
+      "BeginOffset": 2303,
+      "EndOffset": 2308,
+      "Score": 0.7613970637321472,
+      "Text": "blood",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.779019296169281
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 52,
+      "BeginOffset": 2361,
+      "EndOffset": 2387,
+      "Score": 0.5330596566200256,
+      "Text": "visual changes in the area",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 53,
+      "BeginOffset": 2398,
+      "EndOffset": 2403,
+      "Score": 0.6603351831436157,
+      "Text": "jaina",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 120,
+      "BeginOffset": 2398,
+      "EndOffset": 2403,
+      "Score": 0.4171040952205658,
+      "Text": "jaina",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 54,
+      "BeginOffset": 2469,
+      "EndOffset": 2472,
+      "Score": 0.7613970637321472,
+      "Text": "sti",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 58,
+      "BeginOffset": 2658,
+      "EndOffset": 2671,
+      "Score": 0.6603351831436157,
+      "Text": "issue holding",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "HYPOTHETICAL",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 55,
+          "BeginOffset": 2635,
+          "EndOffset": 2645,
+          "Text": "little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8435389995574951,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 57,
+          "BeginOffset": 2681,
+          "EndOffset": 2684,
+          "Text": "ear",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 56,
+      "BeginOffset": 2658,
+      "EndOffset": 2684,
+      "Score": 0.5330596566200256,
+      "Text": "issue holding in their ear",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "HYPOTHETICAL",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5296252369880676
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 55,
+          "BeginOffset": 2635,
+          "EndOffset": 2645,
+          "Text": "little bit",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.8435389995574951,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 57,
+          "BeginOffset": 2681,
+          "EndOffset": 2684,
+          "Text": "ear",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 57,
+      "BeginOffset": 2681,
+      "EndOffset": 2684,
+      "Score": 0.8435389995574951,
+      "Text": "ear",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 59,
+      "BeginOffset": 2704,
+      "EndOffset": 2712,
+      "Score": 0.7950295805931091,
+      "Text": "numbness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "LOW_CONFIDENCE",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 60,
+          "BeginOffset": 2754,
+          "EndOffset": 2769,
+          "Text": "buttocks region",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 60,
+      "BeginOffset": 2754,
+      "EndOffset": 2769,
+      "Score": 0.5971075296401978,
+      "Text": "buttocks region",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 61,
+      "BeginOffset": 2875,
+      "EndOffset": 2896,
+      "Score": 0.7613970637321472,
+      "Text": "changes to your poops",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.779019296169281
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 62,
+      "BeginOffset": 2906,
+      "EndOffset": 2911,
+      "Score": 0.7172441482543945,
+      "Text": "bowel",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 63,
+      "BeginOffset": 2906,
+      "EndOffset": 2921,
+      "Score": 0.877546489238739,
+      "Text": "bowel movements",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5296252369880676
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9214484095573425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 62,
+          "BeginOffset": 2906,
+          "EndOffset": 2911,
+          "Text": "bowel",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 64,
+          "BeginOffset": 2934,
+          "EndOffset": 2947,
+          "Text": "pretty normal",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 66,
+      "BeginOffset": 3011,
+      "EndOffset": 3016,
+      "Score": 0.7950295805931091,
+      "Text": "tired",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 65,
+          "BeginOffset": 3004,
+          "EndOffset": 3010,
+          "Text": "little",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 70,
+      "BeginOffset": 3020,
+      "EndOffset": 3037,
+      "Score": 0.7613970637321472,
+      "Text": "felt a little hot",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8203471899032593
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 68,
+      "BeginOffset": 3034,
+      "EndOffset": 3037,
+      "Score": 0.8617406487464905,
+      "Text": "hot",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "QUALITY",
+          "Id": 67,
+          "BeginOffset": 3027,
+          "EndOffset": 3033,
+          "Text": "little",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 69,
+      "BeginOffset": 3038,
+      "EndOffset": 3047,
+      "Score": 0.7950295805931091,
+      "Text": "yesterday",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.8617406487464905,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "OVERLAP",
+          "Id": 68,
+          "BeginOffset": 3034,
+          "EndOffset": 3037,
+          "Text": "hot",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.9013108015060425
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 69,
+      "BeginOffset": 3038,
+      "EndOffset": 3047,
+      "Score": 0.7950295805931091,
+      "Text": "yesterday",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "OVERLAP",
+          "Id": 70,
+          "BeginOffset": 3020,
+          "EndOffset": 3037,
+          "Text": "felt a little hot",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.8203471899032593
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 71,
+      "BeginOffset": 3094,
+      "EndOffset": 3105,
+      "Score": 0.7172441482543945,
+      "Text": "temperature",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 73,
+      "BeginOffset": 3123,
+      "EndOffset": 3140,
+      "Score": 0.821601390838623,
+      "Text": "feel a little hot",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "QUALITY",
+          "Id": 72,
+          "BeginOffset": 3111,
+          "EndOffset": 3120,
+          "Text": "sometimes",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 74,
+      "BeginOffset": 3159,
+      "EndOffset": 3169,
+      "Score": 0.877546489238739,
+      "Text": "infections",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 75,
+      "BeginOffset": 3199,
+      "EndOffset": 3207,
+      "Score": 0.9201511740684509,
+      "Text": "swelling",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.7299559712409973
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9596198797225952
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 76,
+          "BeginOffset": 3233,
+          "EndOffset": 3237,
+          "Text": "body",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.7552722692489624,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 77,
+          "BeginOffset": 3247,
+          "EndOffset": 3253,
+          "Text": "ankles",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 76,
+      "BeginOffset": 3233,
+      "EndOffset": 3237,
+      "Score": 0.5971075296401978,
+      "Text": "body",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 77,
+      "BeginOffset": 3247,
+      "EndOffset": 3253,
+      "Score": 0.821601390838623,
+      "Text": "ankles",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 78,
+      "BeginOffset": 3285,
+      "EndOffset": 3311,
+      "Score": 0.5971075296401978,
+      "Text": "puffiness around your eyes",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6248409748077393
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 79,
+          "BeginOffset": 3295,
+          "EndOffset": 3311,
+          "Text": "around your eyes",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 79,
+      "BeginOffset": 3295,
+      "EndOffset": 3311,
+      "Score": 0.5971075296401978,
+      "Text": "around your eyes",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 80,
+      "BeginOffset": 3355,
+      "EndOffset": 3361,
+      "Score": 0.8435389995574951,
+      "Text": "rashes",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8787732124328613
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 82,
+          "BeginOffset": 3385,
+          "EndOffset": 3389,
+          "Text": "face",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 81,
+      "BeginOffset": 3369,
+      "EndOffset": 3389,
+      "Score": 0.5971075296401978,
+      "Text": "changes on your face",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5752319693565369
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7613970637321472,
+          "RelationshipScore": 0.8031880259513855,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 82,
+          "BeginOffset": 3385,
+          "EndOffset": 3389,
+          "Text": "face",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 82,
+      "BeginOffset": 3385,
+      "EndOffset": 3389,
+      "Score": 0.7613970637321472,
+      "Text": "face",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 85,
+      "BeginOffset": 3462,
+      "EndOffset": 3469,
+      "Score": 0.8921527862548828,
+      "Text": "flushed",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 84,
+          "BeginOffset": 3455,
+          "EndOffset": 3461,
+          "Text": "little",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 86,
+      "BeginOffset": 3486,
+      "EndOffset": 3490,
+      "Score": 0.8617406487464905,
+      "Text": "rash",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.8203471899032593
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 87,
+      "BeginOffset": 3511,
+      "EndOffset": 3566,
+      "Score": 0.5330596566200256,
+      "Text": "markings across the bridge of your nose and your cheeks",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.47435709834098816
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.47435709834098816
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 88,
+          "BeginOffset": 3531,
+          "EndOffset": 3550,
+          "Text": "bridge of your nose",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 89,
+          "BeginOffset": 3560,
+          "EndOffset": 3566,
+          "Text": "cheeks",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 88,
+      "BeginOffset": 3531,
+      "EndOffset": 3550,
+      "Score": 0.5971075296401978,
+      "Text": "bridge of your nose",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 89,
+      "BeginOffset": 3560,
+      "EndOffset": 3566,
+      "Score": 0.821601390838623,
+      "Text": "cheeks",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 91,
+      "BeginOffset": 3623,
+      "EndOffset": 3630,
+      "Score": 0.8617406487464905,
+      "Text": "flushed",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9013108015060425
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "QUALITY",
+          "Id": 90,
+          "BeginOffset": 3616,
+          "EndOffset": 3622,
+          "Text": "little",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 93,
+      "BeginOffset": 3641,
+      "EndOffset": 3646,
+      "Score": 0.90631103515625,
+      "Text": "tired",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.7223333120346069,
+          "RelationshipType": "QUALITY",
+          "Id": 92,
+          "BeginOffset": 3634,
+          "EndOffset": 3640,
+          "Text": "little",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 94,
+      "BeginOffset": 3658,
+      "EndOffset": 3672,
+      "Score": 0.5971075296401978,
+      "Text": "medical issues",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5752319693565369
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 95,
+      "BeginOffset": 3702,
+      "EndOffset": 3720,
+      "Score": 0.8921527862548828,
+      "Text": "overactive bladder",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9405226111412048
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.877546489238739,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 96,
+          "BeginOffset": 3713,
+          "EndOffset": 3720,
+          "Text": "bladder",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 96,
+      "BeginOffset": 3713,
+      "EndOffset": 3720,
+      "Score": 0.877546489238739,
+      "Text": "bladder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 97,
+      "BeginOffset": 3758,
+      "EndOffset": 3769,
+      "Score": 0.7613970637321472,
+      "Text": "medications",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 98,
+      "BeginOffset": 3836,
+      "EndOffset": 3841,
+      "Score": 0.5971075296401978,
+      "Text": "botox",
+      "Category": "MEDICATION",
+      "Type": "BRAND_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "FORM",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "FORM",
+          "Id": 99,
+          "BeginOffset": 3842,
+          "EndOffset": 3852,
+          "Text": "injections",
+          "Category": "MEDICATION",
+          "Traits": []
+        },
+        {
+          "Type": "ROUTE_OR_MODE",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.6270833611488342,
+          "RelationshipType": "ROUTE_OR_MODE",
+          "Id": 101,
+          "BeginOffset": 3862,
+          "EndOffset": 3869,
+          "Text": "bladder",
+          "Category": "MEDICATION",
+          "Traits": []
+        },
+        {
+          "Type": "FREQUENCY",
+          "Score": 0.7172441482543945,
+          "RelationshipScore": 0.6795811653137207,
+          "RelationshipType": "FREQUENCY",
+          "Id": 102,
+          "BeginOffset": 3876,
+          "EndOffset": 3888,
+          "Text": "twice a year",
+          "Category": "MEDICATION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 100,
+      "BeginOffset": 3862,
+      "EndOffset": 3869,
+      "Score": 0.7172441482543945,
+      "Text": "bladder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 103,
+      "BeginOffset": 3931,
+      "EndOffset": 3942,
+      "Score": 0.7950295805931091,
+      "Text": "medications",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.5752319693565369
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 104,
+      "BeginOffset": 4029,
+      "EndOffset": 4036,
+      "Score": 0.6603351831436157,
+      "Text": "inhaler",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 105,
+      "BeginOffset": 4108,
+      "EndOffset": 4114,
+      "Score": 0.9350614547729492,
+      "Text": "asthma",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.6248409748077393
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 106,
+          "BeginOffset": 4129,
+          "EndOffset": 4159,
+          "Text": "don't feel i have it very much",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 107,
+      "BeginOffset": 4263,
+      "EndOffset": 4274,
+      "Score": 0.5330596566200256,
+      "Text": "medications",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 108,
+      "BeginOffset": 4475,
+      "EndOffset": 4484,
+      "Score": 0.7172441482543945,
+      "Text": "surgeries",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": [
+        {
+          "Name": "PAST_HISTORY",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 109,
+      "BeginOffset": 4497,
+      "EndOffset": 4508,
+      "Score": 0.7613970637321472,
+      "Text": "tundict out",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": [
+        {
+          "Name": "PAST_HISTORY",
+          "Score": 0.7299559712409973
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 121,
+      "BeginOffset": 4611,
+      "EndOffset": 4617,
+      "Score": 0.9567036032676697,
+      "Text": "london",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "ADDRESS",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 122,
+      "BeginOffset": 4668,
+      "EndOffset": 4678,
+      "Score": 0.4879792332649231,
+      "Text": "bank, bank",
+      "Category": "PROTECTED_HEALTH_INFORMATION",
+      "Type": "PROFESSION",
+      "Traits": [],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 110,
+      "BeginOffset": 4760,
+      "EndOffset": 4773,
+      "Score": 0.821601390838623,
+      "Text": "sick contacts",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.779019296169281
+        },
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 111,
+      "BeginOffset": 4808,
+      "EndOffset": 4817,
+      "Score": 0.5330596566200256,
+      "Text": "allergies",
+      "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+      "Type": "ALLERGIES",
+      "Traits": [],
+      "is_adverse_event": true
+    },
+    {
+      "Id": 113,
+      "BeginOffset": 4831,
+      "EndOffset": 4845,
+      "Score": 0.5330596566200256,
+      "Text": "in this spring",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_DX_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DX_NAME",
+          "Score": 0.821601390838623,
+          "RelationshipScore": 0.5692254304885864,
+          "RelationshipType": "OVERLAP",
+          "Id": 115,
+          "BeginOffset": 4865,
+          "EndOffset": 4871,
+          "Text": "stuffy",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": [
+            {
+              "Name": "SYMPTOM",
+              "Score": 0.8530592322349548
+            }
+          ]
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 115,
+      "BeginOffset": 4865,
+      "EndOffset": 4871,
+      "Score": 0.821601390838623,
+      "Text": "stuffy",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8530592322349548
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "QUALITY",
+          "Score": 0.5971075296401978,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 112,
+          "BeginOffset": 4821,
+          "EndOffset": 4830,
+          "Text": "sometimes",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 114,
+          "BeginOffset": 4856,
+          "EndOffset": 4864,
+          "Text": "a little",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.6603351831436157,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 116,
+          "BeginOffset": 4879,
+          "EndOffset": 4897,
+          "Text": "sounds pretty good",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        },
+        {
+          "Type": "QUALITY",
+          "Score": 0.5330596566200256,
+          "RelationshipScore": 0.5068173408508301,
+          "RelationshipType": "QUALITY",
+          "Id": 117,
+          "BeginOffset": 4906,
+          "EndOffset": 4912,
+          "Text": "little",
+          "Category": "MEDICAL_CONDITION",
+          "Traits": []
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 118,
+      "BeginOffset": 4948,
+      "EndOffset": 4962,
+      "Score": 0.7172441482543945,
+      "Text": "drug allergies",
+      "Category": "BEHAVIORAL_ENVIRONMENTAL_SOCIAL",
+      "Type": "ALLERGIES",
+      "Traits": [
+        {
+          "Name": "NEGATION",
+          "Score": 0.6768204569816589
+        }
+      ],
+      "is_adverse_event": false
+    },
+    {
+      "Id": 119,
+      "BeginOffset": 5046,
+      "EndOffset": 5059,
+      "Score": 0.7172441482543945,
+      "Text": "physical exam",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "is_adverse_event": true
+    }
+  ]
+}
