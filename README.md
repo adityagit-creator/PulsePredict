@@ -1,10 +1,37 @@
-# PulsePredict
-A solution to identify and predict any possible adverse event from a recorded conversation between patient and nurse or medical agent. 
+# 🩺 PulsePredict: Adverse Medical Event Prediction from Doctor-Patient Calls
 
+## 🔍 Problem Statement
 
-# 🩺 PulsePredict: Adverse Event Detection from Medical Call Transcripts
+Adverse medical events often arise from miscommunication or overlooked information during patient-physician interactions. Identifying these events proactively could significantly improve patient safety and healthcare outcomes. However, there is currently **no scalable, automated method** to analyze spoken medical conversations and flag potential adverse outcomes.
 
-PulsePredict is an end-to-end system that analyzes doctor-patient call recordings to predict the likelihood of adverse medical events using automatic transcription, entity extraction, and machine learning.
+## 🎯 Objective
+
+Develop an **end-to-end system** that:
+
+- Transcribes doctor-patient audio conversations
+- Extracts key medical entities
+- Predicts the likelihood of an adverse medical event based on the conversation
+
+---
+
+## 🛠️ Proposed Solution
+
+PulsePredict follows a multi-stage processing pipeline:
+
+1. **Audio Transcription**  
+   Transcribe audio calls using OpenAI’s [`Whisper`](https://github.com/openai/whisper) model to convert speech into text.
+
+2. **Medical Entity Extraction**  
+   Use **AWS Comprehend Medical** to extract relevant medical entities (symptoms, medications, diagnoses, etc.) from the transcriptions.
+
+3. **Labeling for Adverse Events**  
+   Utilize a curated **FAERS (FDA Adverse Event Reporting System)** dataset to identify and label potential adverse medical events based on extracted entities.
+
+4. **Feature Engineering**  
+   Engineer structured features from the medical concepts to be used for model training.
+
+5. **Adverse Event Prediction**  
+   Train a **machine learning model** on these features to predict the probability of an adverse medical event occurring as a result of the doctor-patient interaction.
 
 ---
 
